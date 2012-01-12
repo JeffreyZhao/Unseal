@@ -35,7 +35,7 @@ namespace Target
             }
             catch (NotSupportedException)
             {
-                Console.WriteLine("Cannot mock a sealed method");
+                Console.WriteLine("Cannot mock a sealed method.");
             }
 
             try
