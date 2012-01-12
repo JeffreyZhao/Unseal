@@ -57,14 +57,14 @@ namespace Unseal
                     if (method.IsConstructor) continue;
                     if (method.IsAbstract) continue;
 
-                    if (!method.IsVirtual)
-                    {
-                        method.IsVirtual = true;
-                    }
-
                     if (method.IsFinal)
                     {
                         method.IsFinal = false;
+                    }
+
+                    if (!method.IsVirtual)
+                    {
+                        method.IsVirtual = true;
                     }
                 }
             }
