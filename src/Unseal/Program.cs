@@ -24,12 +24,14 @@ namespace Unseal
                 Environment.Exit(1);
             }
 
+            Console.WriteLine("Start processing: " + asmFile);
+
             var pdbFile = Path.ChangeExtension(asmFile, ".pdb");
             var hasPdbFile = File.Exists(pdbFile);
 
             if (hasPdbFile)
             {
-                Console.WriteLine("Pdb file found: " + pdbFile);
+                Console.WriteLine("Pdb found: " + pdbFile);
             }
 
             var asmDef = AssemblyDefinition.ReadAssembly(asmFile, new ReaderParameters
@@ -71,6 +73,8 @@ namespace Unseal
             {
                 WriteSymbols = hasPdbFile
             });
+
+            Console.WriteLine("Finished");
         }
     }
 }

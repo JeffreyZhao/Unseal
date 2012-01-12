@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{159D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unseal", "src\Unseal\Unseal.csproj", "{D821AD8B-421A-461F-B29D-94017019CC40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target", "samples\Target\Target.csproj", "{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usage", "samples\Usage\Usage.csproj", "{166888DC-B977-417A-BB89-84C0B16D94E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -17,11 +21,21 @@ Global
 		{D821AD8B-421A-461F-B29D-94017019CC40}.Debug|x86.Build.0 = Debug|x86
 		{D821AD8B-421A-461F-B29D-94017019CC40}.Release|x86.ActiveCfg = Release|x86
 		{D821AD8B-421A-461F-B29D-94017019CC40}.Release|x86.Build.0 = Release|x86
+		{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}.Debug|x86.ActiveCfg = Debug|x86
+		{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}.Debug|x86.Build.0 = Debug|x86
+		{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}.Release|x86.ActiveCfg = Release|x86
+		{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}.Release|x86.Build.0 = Release|x86
+		{166888DC-B977-417A-BB89-84C0B16D94E0}.Debug|x86.ActiveCfg = Debug|x86
+		{166888DC-B977-417A-BB89-84C0B16D94E0}.Debug|x86.Build.0 = Debug|x86
+		{166888DC-B977-417A-BB89-84C0B16D94E0}.Release|x86.ActiveCfg = Release|x86
+		{166888DC-B977-417A-BB89-84C0B16D94E0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D821AD8B-421A-461F-B29D-94017019CC40} = {8E199965-0E01-4FFD-AFB9-EF3D68F2ABAD}
+		{06969AEE-D4A6-4FA7-9ACA-6E6703889B02} = {159D4687-EE11-4D0D-B335-B5FD158D3196}
+		{166888DC-B977-417A-BB89-84C0B16D94E0} = {159D4687-EE11-4D0D-B335-B5FD158D3196}
 	EndGlobalSection
 EndGlobal
