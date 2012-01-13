@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Moq;
 
-namespace Target
+namespace Unmockable
 {
     class Program
     {

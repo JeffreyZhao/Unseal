@@ -8,8 +8,8 @@
     <ProjectGuid>{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Target</RootNamespace>
-    <AssemblyName>Target</AssemblyName>
+    <RootNamespace>Unmockable</RootNamespace>
+    <AssemblyName>Unmockable</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

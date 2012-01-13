@@ -54,14 +54,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Target\Target.csproj">
+    <ProjectReference Include="..\Unmockable\Unmockable.csproj">
       <Project>{06969AEE-D4A6-4FA7-9ACA-6E6703889B02}</Project>
-      <Name>Target</Name>
+      <Name>Unmockable</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)src\Unseal\bin\Debug\Unseal.exe "$(TargetDir)Target.exe"</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir)src\Unseal\bin\Debug\Unseal.exe "$(TargetDir)Unmockable.exe"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
