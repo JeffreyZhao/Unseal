@@ -11,6 +11,8 @@ namespace Unseal
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Unseal - open everything.");
+
             if (args.Length != 1)
             {
                 Console.WriteLine("Usage: Unseal.exe full-path-of-assembly.");
