@@ -61,7 +61,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)src\Unseal\bin\Debug\Unseal.exe "$(TargetDir)Unmockable.exe"</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir)src\Unseal\bin\$(ConfigurationName)\Unseal.exe "$(TargetDir)Unmockable.exe"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
